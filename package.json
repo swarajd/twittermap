@@ -1,0 +1,23 @@
+{
+  "name": "twittermap",
+  "version": "1.0.0",
+  "description": "see tweets where they happen",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "twitter",
+    "google",
+    "maps"
+  ],
+  "author": "swarajd",
+  "license": "ISC",
+  "dependencies": {
+    "config.json": "0.0.4",
+    "express": "^4.13.4",
+    "node-tweet-stream": "^1.10.0",
+    "socket.io": "^1.4.5"
+  }
+}
