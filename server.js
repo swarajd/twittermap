@@ -1,6 +1,5 @@
 var cfg = require('config.json')('./conf.json');
 var Twitter = require('node-tweet-stream');
-var locationparser = require('./locationparser.js');
 
 var tw = new Twitter({
   consumer_key: cfg.consumer_key,
