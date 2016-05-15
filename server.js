@@ -33,7 +33,7 @@ tw.on('tweet', function(tweet){
   if (tweet.geo != null || tweet.user.location != undefined) {
     console.log('================================================');
     console.log(tweet.geo);
-    console.log(locationparser(tweet.user.location));
+    //console.log(locationparser(tweet.user.location));
     console.log(tweet.text);
   }
 });
